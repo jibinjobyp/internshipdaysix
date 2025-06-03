@@ -43,7 +43,7 @@
  > in password meter
  - ![image](/screenshots/meter_four.png)
  > in bitwarden
- - ![imaage](/screenshots/bit.four.png)
+ - ![imaage](/screenshots/bit_four.png)
 
  ## my observation 
  - when i use `jibinjoby` the output of it is very poor like its very weak easy to crack so "dont use only letter in password"
