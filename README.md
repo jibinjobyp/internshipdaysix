@@ -7,9 +7,12 @@
 - [bitwarden](https://bitwarden.com/password-strength/)
 
 ## sample passwords am used for this testing
-- jibinjoby
-- jibinjobyP
-- jibinjoby1234
-- jibinjobyP1234@!
+ 1. jibinjoby
+ 2. jibinjobyP
+ 3. jibinjoby1234
+ 4. jibinjobyP1234@!
+
+
+ 
 
 
