@@ -1,60 +1,109 @@
-# Task 6 : Create a Strong Password and Evaluate Its Strength.
-## Objective: Understand what makes a password strong and test it against password strength tools.
+# Task 6: Create a Strong Password and Evaluate Its Strength
 
-## tool am useing for this task !
-- [kaspersky](https://password.kaspersky.com/)
-- [password metet](https://passwordmeter.com/)
-- [bitwarden](https://bitwarden.com/password-strength/)
+## 🎯 Objective
+Understand what makes a password strong and evaluate it using password strength testing tools.
 
-## sample passwords am used for this testing
- 1. jibinjoby
- 2. jibinjobyP
- 3. jibinjoby1234
- 4. jibinjobyP1234@!
+---
 
- ## here is the output when i test it 
- ### for `jibinjoby`
- > in kaspersky
- - ![image](/screenshots/kas_one.png)
- > in password meter
- - ![image](/screenshots/meter_one.png)
- > in bitwarden
- - ![imaage](/screenshots/bit.one)
+## 🛠️ Tools Used for Evaluation
+- [Kaspersky Password Checker](https://password.kaspersky.com/)
+- [Password Meter](https://passwordmeter.com/)
+- [Bitwarden Password Strength Tester](https://bitwarden.com/password-strength/)
 
- ### for `jibinjobyP`
- > in kaspersky
- - ![image](/screenshots/kas_two.png)
- > in password meter
- - ![image](/screenshots/meter_two.png)
- > in bitwarden
- - ![imaage](/screenshots/bit_two.png)
+---
 
- ### for `jibinjoby1234`
- > in kaspersky
- - ![image](/screenshots/kas_three.png)
- > in password meter
- - ![image](/screenshots/meter_three.png)
- > in bitwarden
- - ![imaage](/screenshots/bit_three.png)
- 
-  ### for `jibinjobyP1234@!`
- > in kaspersky
- - ![image](/screenshots/kas_four.png)
- > in password meter
- - ![image](/screenshots/meter_four.png)
- > in bitwarden
- - ![imaage](/screenshots/bit_four.png)
+## 🔤 Sample Passwords Used
+1. `jibinjoby`
+2. `jibinjobyP`
+3. `jibinjoby1234`
+4. `jibinjobyP1234@!`
 
- ## my observation 
- - when i use `jibinjoby` the output of it is very poor like its very weak easy to crack so "dont use only letter in password"
- - then `jibinjobyP` here am add capital letter to my password but its also out put very poor easy to crack but "better that `jibinjoby`
- - afer that just add numbers to it like `jibinjoby1234` then the out put little better earlier but `not recommanded`
- - then am add some speacial character and also mix capital letter and numbers `jibinjobyP1234@!` its out is "good strong password" its mean when you use mixed lower , capital , numbers, and special character to password its would be great and not easy to crack it
+---
 
- 
+## 🧪 Evaluation Results
 
+### 1. `jibinjoby`
+- **Kaspersky:**  
+  ![image](/screenshots/kas_one.png)
+- **Password Meter:**  
+  ![image](/screenshots/meter_one.png)
+- **Bitwarden:**  
+  ![image](/screenshots/bit.one)
 
+---
 
- 
+### 2. `jibinjobyP`
+- **Kaspersky:**  
+  ![image](/screenshots/kas_two.png)
+- **Password Meter:**  
+  ![image](/screenshots/meter_two.png)
+- **Bitwarden:**  
+  ![image](/screenshots/bit_two.png)
+
+---
+
+### 3. `jibinjoby1234`
+- **Kaspersky:**  
+  ![image](/screenshots/kas_three.png)
+- **Password Meter:**  
+  ![image](/screenshots/meter_three.png)
+- **Bitwarden:**  
+  ![image](/screenshots/bit_three.png)
+
+---
+
+### 4. `jibinjobyP1234@!`
+- **Kaspersky:**  
+  ![image](/screenshots/kas_four.png)
+- **Password Meter:**  
+  ![image](/screenshots/meter_four.png)
+- **Bitwarden:**  
+  ![image](/screenshots/bit_four.png)
+
+---
+
+## 📌 Observations & Analysis
+
+| Password              | Strength | Notes |
+|-----------------------|----------|--------------------------------------------------|
+| `jibinjoby`           | Very Weak | Only lowercase letters; easy to brute-force     |
+| `jibinjobyP`          | Weak      | Adds 1 uppercase letter; slightly better        |
+| `jibinjoby1234`       | Moderate  | Adds numbers; still guessable                   |
+| `jibinjobyP1234@!`    | Strong    | Includes uppercase, lowercase, numbers, symbols |
+
+### 🔎 Summary
+- Using only **lowercase letters** makes your password very weak.
+- Adding **uppercase letters** slightly improves strength.
+- Including **numbers** further strengthens it, but not enough.
+- A strong password should be a **mix of lowercase, uppercase, numbers, and symbols**, with sufficient **length** (12+ characters recommended).
+
+---
+
+## 🧠 Common Password Attacks
+
+| Attack Type            | Description                                                    | Prevention |
+|------------------------|----------------------------------------------------------------|------------|
+| **Brute Force**        | Tries all possible combinations                                | Use long, complex passwords |
+| **Dictionary Attack**  | Uses a list of common passwords or words                       | Avoid predictable words |
+| **Credential Stuffing**| Uses leaked credentials from other sites                       | Use unique passwords per site |
+| **Phishing**           | Tricks user into entering password on a fake site              | Enable 2FA, verify URLs |
+| **Keylogging**         | Captures typed keystrokes using malware                        | Use antivirus, avoid unknown downloads |
+| **Social Engineering** | Tricks users into revealing passwords verbally or via email    | Never share passwords |
+| **Rainbow Table**      | Matches precomputed hashes to password hashes                  | Use salted, strong hashing |
+| **MITM (Man-in-the-Middle)** | Intercepts login traffic (often on public Wi-Fi)        | Use HTTPS and VPNs |
+
+---
+
+## ✅ Best Practices for Creating Strong Passwords
+
+- Use **12+ characters** minimum.
+- Include **uppercase, lowercase, numbers, and symbols**.
+- Avoid using names, dates, or common phrases.
+- Use a **password manager** to generate and store passwords.
+- Enable **two-factor authentication (2FA)** wherever possible.
+- Never reuse passwords across different websites.
+
+---
+
 
 
